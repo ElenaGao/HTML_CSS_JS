@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <h1>注册页面</h1>
+    <form action="http://127.0.0.1:5000/index/" method="post" enctype="multipart/form-data">
+        <p>
+            <lable for="d1">username:<input type="text" id="d1" name="username" value="默认值"></lable>
+        </p>
+        <p>
+            <lable for="d2">password:<input type="password" id="d2" name="password"></lable>
+        </p>
+        <p>
+            <lable>birthday: <input type="date"></lable>
+        </p>
+        <p>性别：
+            <input type="radio" name="gender" checked="checked" value="male">男
+            <input type="radio" name="gender" value="female">女
+        </p>
+        <p> 爱好：
+            <input type="checkbox" checked name="hobby" value="book">read
+            <input type="checkbox" name="hobby" value="smile">haha
+        </p>
+        <p>省份：
+            <select name="province" id="">
+                <option value="sh">上海</option>
+                <option value="bj" selected>北京</option>
+                <option value="sz">深圳</option>
+            </select>
+        </p>
+        <p>文件：
+            <input type="file" name="myfile">
+        </p>
+        <p>自我介绍：
+            <textarea name="introduction" id="dd" cols="30" rows="10"></textarea>
+        </p>
+
+        <input type="submit" value="注册">
+        <input type="button" value="按钮">
+        <input type="reset" value="重置">
+        <button>点我</button>
+    </form>
+</body>
+</html>

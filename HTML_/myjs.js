@@ -1,0 +1,1 @@
+confirm('are you sure?')
